@@ -9,3 +9,10 @@ functionallity, and enable:
 
 They also open the door to using different types of OOP programming methods and design 
 patterns with PHP easily. 
+
+
+-	The __callStatic() magic method
+
+-	Dynamic static calls
+
+LATE STATIC BINDING
