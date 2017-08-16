@@ -15,4 +15,7 @@ patterns with PHP easily.
 
 -	Dynamic static calls
 
+
 LATE STATIC BINDING
+
+Static references, such as those made with self or __CLASS__, are resolved in the class scope in which the function was defined. The problem is tha the reference would be incorrect if the class was extended and the call was made from the new child class. Late static binding has been added in PHP V5.3 to alleviate this problem.
