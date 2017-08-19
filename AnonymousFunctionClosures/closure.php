@@ -1,7 +1,7 @@
 <?php
 function myClosure() {
 	$local_var = 10;
-	return function() use($local_var) {
+	return function() use(&$local_var) {
 		return ++$local_var;
 	};
 }
