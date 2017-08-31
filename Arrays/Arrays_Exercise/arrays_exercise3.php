@@ -14,3 +14,9 @@ unset($x[3]);
 echo "<br>";
 
 var_dump($x);
+
+echo "<br>";
+
+$x = array_values($x);
+
+var_dump($x);
